@@ -1,6 +1,6 @@
 name: Hello World Workflow
 
-on: [push] # This workflow runs on every push to the repository
+on: [push,pull_request,pull_request_target] # This workflow runs on every push to the repository
 
 jobs:
   say-hello: # Name of the job
